@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import logo from './assets/gadgetsmans-logo.png';
+import logo from '../../../public/assets/gadgetsmans-logo.png';
 
 function Header() {
 
@@ -185,7 +185,7 @@ if (isCartOpen) {
         onClick={handleWishlistClick}>
 
         <a href="#" style={heartStyle}>
-          <img src="public/heart_outline.svg" alt="Wishlist" />
+          <img src="../../public/assets/heart_outline.svg" alt="Wishlist" />
           </a>
 
         {isWishlistOpen && (
@@ -200,7 +200,7 @@ if (isCartOpen) {
     <li className="header__nav-icon-cart" 
         onClick={handleCartClick}>
           <a href="#" style={cartStyle}>
-              <img src="public/cart.svg" alt="Cart" />
+              <img src="../../public/assets/cart.svg" alt="Cart" />
             </a>
                {isCartOpen && (
             <div className="cart-dropdown">
@@ -211,7 +211,7 @@ if (isCartOpen) {
 
           <li className="header__nav-icon-login">
             <a href="#">
-              <img src="public/user.svg" alt="Login" />
+              <img src="../../public/assets/user.svg" alt="Login" />
               </a>
           </li>
         </ul>

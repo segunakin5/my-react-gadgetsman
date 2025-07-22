@@ -6,10 +6,10 @@ function HERO () {
    const [currentSlide, setCurrentSlide] = useState(0);
 
 const slideImages = [
-  "public/hero-main.png",
-  "public/hero2.png",
-  "public/hero3.png",
-  "public/hero-4.png"
+  "../../public/assets/hero-main.png",
+  "../../public/assets/hero2.png",
+  "../../public/assets/hero3.png",
+  "../../public/assets/hero-4.png"
 ];
 
 
@@ -41,7 +41,7 @@ useEffect(() => {
 
         <div className="macbook-grid-item">
            <div className="image-macbook">    
-          <img src="public/macbook.webp" />
+          <img src="../../public/assets/macbook.webp" />
           </div>
 
           <div className="text-heading-imacbook">
@@ -54,7 +54,7 @@ useEffect(() => {
                     
         <div className="samsung-grid-item">
            <div className="image-samsung">    
-            <img src="public/newsam.jpg" />
+            <img src="../../public/assets/newsam.jpg" />
            </div>
 
             <div className="text-heading-samsung">
@@ -68,7 +68,7 @@ useEffect(() => {
 
         <div className="iphone16max-grid-item">
            <div className="image-iphone16max">    
-            <img src="public/goldiphone16.webp" />
+            <img src="../../public/assets/goldiphone16.webp" />
            </div>
 
             <div className="text-heading-iphone16max">
@@ -80,63 +80,6 @@ useEffect(() => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
       </div>
     </section>
  )

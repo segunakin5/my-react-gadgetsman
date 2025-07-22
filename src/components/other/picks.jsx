@@ -14,7 +14,7 @@ return (
      <Link to="/product/iphone13" style={{ textDecoration: 'none', color: 'inherit' }}>
        <div className="picks-card-grid">
          <div className="picks-card-image">
-           <img src="public/picks1.png" alt="iPhone 13" />
+           <img src="../../public/assets/picks1.png" alt="iPhone 13" />
          </div>
          <button className="picks-card-button">Buy Now</button>
          <p className="picks-card-text">Apple iPhone 13  256GB</p>
@@ -25,7 +25,7 @@ return (
      <Link to="/product/samsungs21" style={{ textDecoration: 'none', color: 'inherit' }}>
        <div className="picks-card-grid">
          <div className="picks-card-image">
-           <img src="public/samsungs21.jpg" alt="Samsung S21" />
+           <img src="../../public/assets/samsungs21.jpg" alt="Samsung S21" />
          </div>
          <button className="picks-card-button">Buy Now</button>
          <p className="picks-card-text">Samsung s21 Ultra 5G, 256GB</p>
@@ -36,7 +36,7 @@ return (
      <Link to="/product/googlep9" style={{ textDecoration: 'none', color: 'inherit' }}>
        <div className="picks-card-grid">
          <div className="picks-card-image">
-           <img src="public/googlep9.jpg" alt="Google Pixel" />
+           <img src="../../public/assets/googlep9.jpg" alt="Google Pixel" />
          </div>
          <button className="picks-card-button">Buy Now</button>
          <p className="picks-card-text">Google Pixel 9 Pro 512GB</p>
@@ -47,7 +47,7 @@ return (
      <Link to="/product/airpodpromax" style={{ textDecoration: 'none', color: 'inherit' }}>
        <div className="picks-card-grid">
          <div className="picks-card-image">
-           <img src="public/airpodpromax.png" alt="Airpods Max" />
+           <img src="../../public/assets/airpodpromax.png" alt="Airpods Max" />
          </div>
          <button className="picks-card-button">Buy Now</button>
          <p className="picks-card-text">Air Pod Max</p>

@@ -9,52 +9,52 @@ function Category(){
       <div className="category-list">
         <ul>
           <li className="category-items" ><a href="#">
-            <img src = "public/phone.svg" alt="Phones" />
+            <img src = "../../public/assets/phone.svg" alt="Phones" />
             </a>
             <p>Phones</p>
             </li>
 
             
           <li className="category-items"><a href="#">
-            <img src = "public/printer.svg" alt="Printer" />
+            <img src = "../../public/assets/printer.svg" alt="Printer" />
             </a>
             <p>Printers</p>
             </li>
 
 
           <li className="category-items"><a href="#">
-            <img src = "public/laptops.svg" alt="Laptops" />
+            <img src = "../../public/assets/laptops.svg" alt="Laptops" />
             </a>
             <p>Laptops</p>
             </li>
 
 
           <li className="category-items"><a href="#">
-            <img src = "public/gaming.svg" alt="Gaming" />
+            <img src = "../../public/assets/gaming.svg" alt="Gaming" />
             </a>
             <p>Gaming</p>
             </li>
 
           <li className="category-items"><a href="#">
-            <img src = "public/accesories.svg" alt="Accesories" />
+            <img src = "../../public/assets/accesories.svg" alt="Accesories" />
             </a>
             <p>Accesories</p>
             </li>
           <li className="category-items"><a href="#">
-            <img src = "public/TV.svg" alt="TVs" />
+            <img src = "../../public/assets/TV.svg" alt="TVs" />
             </a>
             <p>TVs</p>
             </li>
 
           <li className="category-items"><a href="#">
-            <img src = "public/Pc.svg" alt="PCs" />
+            <img src = "../../public/assets/Pc.svg" alt="PCs" />
             </a>
             <p>PCs</p>
             </li>
 
 
           <li className="category-items"><a href="#">
-            <img src = "public/speakers.svg" alt="Speakers" />
+            <img src = "../../public/assets/speakers.svg" alt="Speakers" />
             </a>
             <p>Speakers</p>
             </li>

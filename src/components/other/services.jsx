@@ -6,7 +6,7 @@ return(
 
 
     <div className="services-cont1">
-        <img src="public/heart1.svg"/>
+        <img src="../../public/assets/heart1.svg"/>
         <h3>Take care with love</h3> 
         <p>We take care your package with full of attention and of course full of love. 
           We want to make sure 
@@ -14,7 +14,7 @@ return(
     </div>
 
       <div className="services-cont2">
-        <img src="public/telephone.svg"/>
+        <img src="../../public/assets/telephone.svg"/>
         <h3>Friendly Customer Service</h3> 
         <p>You do not need to worry when you want to check your package.
            We will always answer whatever your questions. 
@@ -24,7 +24,7 @@ return(
 
 
     <div className="services-cont3">
-        <img src="public/return.svg"/>
+        <img src="../../public/assets/return.svg"/>
         <h3>Refund Process</h3> 
         <p>Refund is a such bad experience and we don’t want that thing happen to you. 
           But when it&#39;s happen we will make sure 

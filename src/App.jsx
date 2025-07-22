@@ -3,7 +3,7 @@ import HERO from './components/other/hero-section.jsx';
 import Picks from './components/other/picks.jsx';
 import Category from './components/other/category.jsx';
 import NewsLetter from './components/other/newsletter.jsx';
-import ProductShow from './productshow.jsx';
+import ProductShow from './components/other/productshow.jsx';
 import Trending from './components/other/trending.jsx';
 import Test from './components/other/testimonials.jsx';
 import Services from './components/other/services.jsx';

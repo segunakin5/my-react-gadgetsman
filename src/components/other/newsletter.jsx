@@ -2,7 +2,7 @@ function NewsLetter(){
   return(
     <div className="newsletter-container"> 
       <div className="newsletter-image">
-        <img src="public/newsletter.png" alt="Newsletter" />  
+        <img src="../../public/assets/newsletter.png" alt="Newsletter" />  
       </div>
       <div className="newsletter-content">
         <div className="vertical-rectangle"></div>
