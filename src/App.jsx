@@ -1,16 +1,16 @@
-import Header from './Header.jsx';
-import HERO from './hero-section.jsx';
-import Picks from './picks.jsx';
-import Category from './category.jsx';
-import NewsLetter from './newsletter.jsx';
+import Header from './components/common/Header.jsx';
+import HERO from './components/other/hero-section.jsx';
+import Picks from './components/other/picks.jsx';
+import Category from './components/other/category.jsx';
+import NewsLetter from './components/other/newsletter.jsx';
 import ProductShow from './productshow.jsx';
-import Trending from './trending.jsx';
-import Test from './testimonials.jsx';
-import Services from './services.jsx';
-import Footer from './Footer.jsx';
-import Product from './product.jsx'; 
+import Trending from './components/other/trending.jsx';
+import Test from './components/other/testimonials.jsx';
+import Services from './components/other/services.jsx';
+import Footer from './components/common/Footer.jsx';
+import Product from './pages/product.jsx'; 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Shop from './shop.jsx';
+import Shop from './pages/shop.jsx';
 
 function App() {
   return (
