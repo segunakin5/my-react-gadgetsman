@@ -1,14 +1,23 @@
 import { useParams } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { getProductById } from '../data/mock_db';
 
 function Product() {
   const { id } = useParams();
   const [quantity, setQuantity] = useState(1);
-  const [product, setProduct] = useState({})
+  const [product, setProduct] = useState(null);
   
-  if(id !== undefined){
-    setProduct(getProductById(id));
+  // Fix: Use useEffect to avoid infinite re-renders
+  useEffect(() => {
+    if (id) {
+      const foundProduct = getProductById(id);
+      setProduct(foundProduct);
+    }
+  }, [id]);
+
+  // Show loading state if product hasn't loaded yet
+  if (!product) {
+    return <div>Loading...</div>;
   }
   
   return (
@@ -27,11 +36,11 @@ function Product() {
             <label>Quantity:</label>
             <button className="quantity-button-left" onClick={() => quantity > 1 && setQuantity(quantity - 1)}>-</button>
             <span>{quantity}</span>
-            <button  className="qunatity-button-right" onClick={() => setQuantity(quantity + 1)}>+</button>
+            <button className="quantity-button-right" onClick={() => setQuantity(quantity + 1)}>+</button>
           </div>
 
           <button className="add-to-cart-btn">Add to Cart</button>
-          <button className="wishlist-btn"> Add to Wishlist</button>
+          <button className="wishlist-btn">Add to Wishlist</button>
         </div>
       </div>
     </section>

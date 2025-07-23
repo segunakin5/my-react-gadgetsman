@@ -4,37 +4,67 @@ const productList = [
     productName: 'Samsung S25 Ultra',
     productPrice: '₦2,000,000',
     productDescription: 'The latest flagship from Samsung with top-of-the-line features.',
-    productImage: '../../public/assets/Samsung-Galaxy-S25-Ultra.webp'
+    productImage: '/assets/Samsung-Galaxy-S25-Ultra.webp'
   },
   {
     productId: '2',
     productName: 'Laptop Pro 15',
     productPrice: '₦4,000,000',
     productDescription: 'A powerful laptop designed for professionals and creators.',
-    productImage: '../../public/assets/macpro.jpg'
+    productImage: '/assets/macpro.jpg'
   },
   {
     productId: '3',
     productName: 'Airpod Max',
     productPrice: '₦800,000',
     productDescription: 'Premium wireless headphones with active noise cancellation.',
-    productImage: '../../public/assets/airpodpromax.png'
+    productImage: '/assets/airpodpromax.png'
   },
   {
     productId: '4',
     productName: 'Laptop Pro 15',
     productPrice: '₦4,000,000',
     productDescription: 'Same Laptop Pro model, available in different configurations.',
-    productImage: '../../public/assets/macpro.jpg'
+    productImage: '/assets/macpro.jpg'
   },
   {
     productId: '5',
     productName: 'Airpod Max',
     productPrice: '₦800,000',
     productDescription: 'Another listing of Airpod Max for quick access.',
-    productImage: '../../public/assets/airpodpromax.png'
+    productImage: '/assets/airpodpromax.png'
+  },
+  {
+    productId:'6',
+    productName: 'Apple iPhone 13  256GB',
+    productPrice: ' ₦595,000.00',
+    productDescription: '',
+    productImage : '../../public/assets/picks1.png'
+  }
+  ,
+  {
+    productId:'7',
+    productName: 'Samsung s21 Ultra 5G, 256GB',
+    productPrice: '₦585,000.00',
+    productDescription: '',
+    productImage : '../../public/assets/samsungs21.jpg'
+  },
+  {
+    productId:'8',
+    productName: 'Google Pixel 9 Pro 512GB',
+    productPrice: '₦1,798,000.00 ',
+    productDescription: '',
+    productImage : '../../public/assets/googlep9.jpg'
+  },
+  {
+    productId:'9',
+    productName: 'Air Pod Max',
+    productPrice: '₦800,000.00 ',
+    productDescription: '',
+    productImage : '../../public/assets/airpodpromax.png'
   }
 ];
+
 
 export function getProductById(productId) {
   return productList.find(product => product.productId === productId);
